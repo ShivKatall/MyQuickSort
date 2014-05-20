@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D094939192BF0CE002508B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D094938192BF0CE002508B0 /* Foundation.framework */; };
+		3D09493B192BF0CE002508B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D09493A192BF0CE002508B0 /* CoreGraphics.framework */; };
+		3D09493D192BF0CE002508B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D09493C192BF0CE002508B0 /* UIKit.framework */; };
+		3D094943192BF0CE002508B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D094941192BF0CE002508B0 /* InfoPlist.strings */; };
+		3D094945192BF0CE002508B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D094944192BF0CE002508B0 /* main.m */; };
+		3D094949192BF0CE002508B0 /* CBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D094948192BF0CE002508B0 /* CBAppDelegate.m */; };
+		3D09494C192BF0CE002508B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D09494A192BF0CE002508B0 /* Main.storyboard */; };
+		3D09494F192BF0CE002508B0 /* CBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D09494E192BF0CE002508B0 /* CBViewController.m */; };
+		3D094951192BF0CE002508B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D094950192BF0CE002508B0 /* Images.xcassets */; };
+		3D094958192BF0CE002508B0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D094957192BF0CE002508B0 /* XCTest.framework */; };
+		3D094959192BF0CE002508B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D094938192BF0CE002508B0 /* Foundation.framework */; };
+		3D09495A192BF0CE002508B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D09493C192BF0CE002508B0 /* UIKit.framework */; };
+		3D094962192BF0CE002508B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D094960192BF0CE002508B0 /* InfoPlist.strings */; };
+		3D094964192BF0CE002508B0 /* MyQuickSortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D094963192BF0CE002508B0 /* MyQuickSortTests.m */; };
+		3D09496F192BF1CB002508B0 /* NSMutableArray+QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D09496E192BF1CB002508B0 /* NSMutableArray+QuickSort.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D09495B192BF0CE002508B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D09492D192BF0CE002508B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D094934192BF0CE002508B0;
+			remoteInfo = MyQuickSort;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D094935192BF0CE002508B0 /* MyQuickSort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyQuickSort.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D094938192BF0CE002508B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D09493A192BF0CE002508B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3D09493C192BF0CE002508B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3D094940192BF0CE002508B0 /* MyQuickSort-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyQuickSort-Info.plist"; sourceTree = "<group>"; };
+		3D094942192BF0CE002508B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D094944192BF0CE002508B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D094946192BF0CE002508B0 /* MyQuickSort-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyQuickSort-Prefix.pch"; sourceTree = "<group>"; };
+		3D094947192BF0CE002508B0 /* CBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBAppDelegate.h; sourceTree = "<group>"; };
+		3D094948192BF0CE002508B0 /* CBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBAppDelegate.m; sourceTree = "<group>"; };
+		3D09494B192BF0CE002508B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D09494D192BF0CE002508B0 /* CBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBViewController.h; sourceTree = "<group>"; };
+		3D09494E192BF0CE002508B0 /* CBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBViewController.m; sourceTree = "<group>"; };
+		3D094950192BF0CE002508B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D094956192BF0CE002508B0 /* MyQuickSortTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyQuickSortTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D094957192BF0CE002508B0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3D09495F192BF0CE002508B0 /* MyQuickSortTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyQuickSortTests-Info.plist"; sourceTree = "<group>"; };
+		3D094961192BF0CE002508B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D094963192BF0CE002508B0 /* MyQuickSortTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyQuickSortTests.m; sourceTree = "<group>"; };
+		3D09496D192BF1CB002508B0 /* NSMutableArray+QuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QuickSort.h"; sourceTree = "<group>"; };
+		3D09496E192BF1CB002508B0 /* NSMutableArray+QuickSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QuickSort.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D094932192BF0CE002508B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D09493B192BF0CE002508B0 /* CoreGraphics.framework in Frameworks */,
+				3D09493D192BF0CE002508B0 /* UIKit.framework in Frameworks */,
+				3D094939192BF0CE002508B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D094953192BF0CE002508B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D094958192BF0CE002508B0 /* XCTest.framework in Frameworks */,
+				3D09495A192BF0CE002508B0 /* UIKit.framework in Frameworks */,
+				3D094959192BF0CE002508B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D09492C192BF0CE002508B0 = {
+			isa = PBXGroup;
+			children = (
+				3D09493E192BF0CE002508B0 /* MyQuickSort */,
+				3D09495D192BF0CE002508B0 /* MyQuickSortTests */,
+				3D094937192BF0CE002508B0 /* Frameworks */,
+				3D094936192BF0CE002508B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D094936192BF0CE002508B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D094935192BF0CE002508B0 /* MyQuickSort.app */,
+				3D094956192BF0CE002508B0 /* MyQuickSortTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D094937192BF0CE002508B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D094938192BF0CE002508B0 /* Foundation.framework */,
+				3D09493A192BF0CE002508B0 /* CoreGraphics.framework */,
+				3D09493C192BF0CE002508B0 /* UIKit.framework */,
+				3D094957192BF0CE002508B0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D09493E192BF0CE002508B0 /* MyQuickSort */ = {
+			isa = PBXGroup;
+			children = (
+				3D094947192BF0CE002508B0 /* CBAppDelegate.h */,
+				3D094948192BF0CE002508B0 /* CBAppDelegate.m */,
+				3D09494A192BF0CE002508B0 /* Main.storyboard */,
+				3D09494D192BF0CE002508B0 /* CBViewController.h */,
+				3D09494E192BF0CE002508B0 /* CBViewController.m */,
+				3D094950192BF0CE002508B0 /* Images.xcassets */,
+				3D09493F192BF0CE002508B0 /* Supporting Files */,
+				3D09496D192BF1CB002508B0 /* NSMutableArray+QuickSort.h */,
+				3D09496E192BF1CB002508B0 /* NSMutableArray+QuickSort.m */,
+			);
+			path = MyQuickSort;
+			sourceTree = "<group>";
+		};
+		3D09493F192BF0CE002508B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D094940192BF0CE002508B0 /* MyQuickSort-Info.plist */,
+				3D094941192BF0CE002508B0 /* InfoPlist.strings */,
+				3D094944192BF0CE002508B0 /* main.m */,
+				3D094946192BF0CE002508B0 /* MyQuickSort-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D09495D192BF0CE002508B0 /* MyQuickSortTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D094963192BF0CE002508B0 /* MyQuickSortTests.m */,
+				3D09495E192BF0CE002508B0 /* Supporting Files */,
+			);
+			path = MyQuickSortTests;
+			sourceTree = "<group>";
+		};
+		3D09495E192BF0CE002508B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D09495F192BF0CE002508B0 /* MyQuickSortTests-Info.plist */,
+				3D094960192BF0CE002508B0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D094934192BF0CE002508B0 /* MyQuickSort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D094967192BF0CE002508B0 /* Build configuration list for PBXNativeTarget "MyQuickSort" */;
+			buildPhases = (
+				3D094931192BF0CE002508B0 /* Sources */,
+				3D094932192BF0CE002508B0 /* Frameworks */,
+				3D094933192BF0CE002508B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyQuickSort;
+			productName = MyQuickSort;
+			productReference = 3D094935192BF0CE002508B0 /* MyQuickSort.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D094955192BF0CE002508B0 /* MyQuickSortTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D09496A192BF0CE002508B0 /* Build configuration list for PBXNativeTarget "MyQuickSortTests" */;
+			buildPhases = (
+				3D094952192BF0CE002508B0 /* Sources */,
+				3D094953192BF0CE002508B0 /* Frameworks */,
+				3D094954192BF0CE002508B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D09495C192BF0CE002508B0 /* PBXTargetDependency */,
+			);
+			name = MyQuickSortTests;
+			productName = MyQuickSortTests;
+			productReference = 3D094956192BF0CE002508B0 /* MyQuickSortTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D09492D192BF0CE002508B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Cole Bratcher";
+				TargetAttributes = {
+					3D094955192BF0CE002508B0 = {
+						TestTargetID = 3D094934192BF0CE002508B0;
+					};
+				};
+			};
+			buildConfigurationList = 3D094930192BF0CE002508B0 /* Build configuration list for PBXProject "MyQuickSort" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D09492C192BF0CE002508B0;
+			productRefGroup = 3D094936192BF0CE002508B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D094934192BF0CE002508B0 /* MyQuickSort */,
+				3D094955192BF0CE002508B0 /* MyQuickSortTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D094933192BF0CE002508B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D094951192BF0CE002508B0 /* Images.xcassets in Resources */,
+				3D094943192BF0CE002508B0 /* InfoPlist.strings in Resources */,
+				3D09494C192BF0CE002508B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D094954192BF0CE002508B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D094962192BF0CE002508B0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D094931192BF0CE002508B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D094945192BF0CE002508B0 /* main.m in Sources */,
+				3D094949192BF0CE002508B0 /* CBAppDelegate.m in Sources */,
+				3D09496F192BF1CB002508B0 /* NSMutableArray+QuickSort.m in Sources */,
+				3D09494F192BF0CE002508B0 /* CBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D094952192BF0CE002508B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D094964192BF0CE002508B0 /* MyQuickSortTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D09495C192BF0CE002508B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D094934192BF0CE002508B0 /* MyQuickSort */;
+			targetProxy = 3D09495B192BF0CE002508B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D094941192BF0CE002508B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D094942192BF0CE002508B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3D09494A192BF0CE002508B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D09494B192BF0CE002508B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D094960192BF0CE002508B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D094961192BF0CE002508B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D094965192BF0CE002508B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D094966192BF0CE002508B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D094968192BF0CE002508B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyQuickSort/MyQuickSort-Prefix.pch";
+				INFOPLIST_FILE = "MyQuickSort/MyQuickSort-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3D094969192BF0CE002508B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyQuickSort/MyQuickSort-Prefix.pch";
+				INFOPLIST_FILE = "MyQuickSort/MyQuickSort-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3D09496B192BF0CE002508B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyQuickSort.app/MyQuickSort";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyQuickSort/MyQuickSort-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MyQuickSortTests/MyQuickSortTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3D09496C192BF0CE002508B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyQuickSort.app/MyQuickSort";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyQuickSort/MyQuickSort-Prefix.pch";
+				INFOPLIST_FILE = "MyQuickSortTests/MyQuickSortTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D094930192BF0CE002508B0 /* Build configuration list for PBXProject "MyQuickSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D094965192BF0CE002508B0 /* Debug */,
+				3D094966192BF0CE002508B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D094967192BF0CE002508B0 /* Build configuration list for PBXNativeTarget "MyQuickSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D094968192BF0CE002508B0 /* Debug */,
+				3D094969192BF0CE002508B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D09496A192BF0CE002508B0 /* Build configuration list for PBXNativeTarget "MyQuickSortTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D09496B192BF0CE002508B0 /* Debug */,
+				3D09496C192BF0CE002508B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D09492D192BF0CE002508B0 /* Project object */;
+}
